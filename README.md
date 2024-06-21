@@ -34,36 +34,6 @@ Python 3.5
 - The game continues until no more valid moves can be made by either player.
 - The player with the most pieces of their color on the board wins. If both players have the same number of pieces, the game ends in a tie.
 
-## Example
-$ python reversi.py
-  1 2 3 4 5 6 7 8
- +-----------------+
-1|   X O          
-2|   O X          
-3|                
-4|                
-5|                
-6|                
-7|                
-8|                
- +-----------------+
-Current player: X
-Enter your move (row col): 3 4
-  1 2 3 4 5 6 7 8
- +-----------------+
-1|   X O          
-2|   O X          
-3|       X        
-4|                
-5|                
-6|                
-7|                
-8|                
- +-----------------+
-Current player: O
-Enter your move (row col): 
-...
-
 ## Credits
 Developed by Kai Lin Wong [https://www.linkedin.com/in/kai-lin-wong31/]
 Inspired by the classic Reversi (Othello) board game.
